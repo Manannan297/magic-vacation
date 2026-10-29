@@ -25,7 +25,6 @@ export default class FullPageScroll {
     if (this.scrollFlag) {
       const currentPosition = this.activeScreen;
       this.reCalculateActiveScreenPosition(evt.deltaY);
-
       if (currentPosition !== this.activeScreen) {
         this.changePageDisplay();
       }

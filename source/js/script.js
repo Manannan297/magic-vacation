@@ -3,6 +3,7 @@ import 'swiper/css/bundle';
 import '../scss/style.scss';
 
 // modules
+import page from './modules/page-common.js';
 import mobileHeight from './modules/mobile-height-adjust.js';
 import slider from './modules/slider.js';
 import menu from './modules/menu.js';
@@ -14,6 +15,7 @@ import social from './modules/social.js';
 import FullPageScroll from './modules/full-page-scroll';
 
 // init modules
+page();
 mobileHeight();
 slider();
 menu();
