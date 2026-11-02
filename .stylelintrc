@@ -11,6 +11,8 @@
     "declaration-block-no-redundant-longhand-properties": null,
     "max-nesting-depth": null,
     "number-max-precision": null,
-    "shorthand-property-no-redundant-values": null
+    "shorthand-property-no-redundant-values": null,
+    "@stylistic/declaration-colon-newline-after": null,
+    "@stylistic/indentation": null
   }
 }
