@@ -3,7 +3,7 @@ import 'swiper/css/bundle';
 import '../scss/style.scss';
 
 // modules
-import page from './modules/page-common.js';
+import Page from './modules/page.js';
 import mobileHeight from './modules/mobile-height-adjust.js';
 import slider from './modules/slider.js';
 import menu from './modules/menu.js';
@@ -12,10 +12,10 @@ import chat from './modules/chat.js';
 import result from './modules/result.js';
 import form from './modules/form.js';
 import social from './modules/social.js';
-import FullPageScroll from './modules/full-page-scroll';
 
 // init modules
-page();
+// eslint-disable-next-line no-new
+new Page();
 mobileHeight();
 slider();
 menu();
@@ -24,6 +24,3 @@ chat();
 result();
 form();
 social();
-
-const fullPageScroll = new FullPageScroll();
-fullPageScroll.init();
